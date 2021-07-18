@@ -6,7 +6,6 @@ $(document).ready(function(){
         window.open('testScript.pdf', '_blank');
     });
     
-  } 
     
     
     var videoTime = document.getElementById("video").currentTime;
