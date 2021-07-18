@@ -11,10 +11,6 @@ $(document).ready(function(){
     var videoTime = document.getElementById("video").currentTime;
     var videoDuration = document.getElementById("video").duration;
     
-    while (videoDuration-videoTime !== 5) {
-        $("button").hide();
-        } 
-    
     
     
 });
