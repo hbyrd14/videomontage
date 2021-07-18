@@ -5,8 +5,8 @@ $(document).ready(function(){
     $("button").click(function(){
         window.open('testScript.pdf', '_blank');
     });
-    document.getElementById("video").addEventListener('ended',myHandler,false);
-    function myHandler(e) {
+    document.getElementById("video").addEventListener('ended',buttonHandler,false);
+    function buttonHandler(e) {
         $("button").fadeIn(4000);
     }
     
