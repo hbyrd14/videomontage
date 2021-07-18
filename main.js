@@ -9,9 +9,7 @@ $(document).ready(function(){
     var videoDuration = document.getElementById("video").duration;
     
     while (videoDuration-videoTime !== 5) {
-        document.getElementById("video").addEventListener('ended',buttonHandler,false);
-        function buttonHandler(e) {
-          $("button").fadeIn(1000);
+        $("button").hide();
         }
     }    
 });
