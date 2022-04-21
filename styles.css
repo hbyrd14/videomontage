@@ -1,6 +1,6 @@
 html {
     background-image: url("gradientBackground.png");
-    background-size: cover;
+    background-size: 100%;
     background-color: #FFCBA5;
 }
 
