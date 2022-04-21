@@ -1,9 +1,12 @@
-body {
-    max-height: auto;
-    max-width: auto;
+html {
     background-image: url("gradientBackground.png");
     background-size: cover;
     background-color: #FFCBA5;
+}
+
+body {
+    max-height: auto;
+    max-width: auto;
 }
 
 video {
