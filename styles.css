@@ -2,6 +2,7 @@ body {
     max-height: auto;
     max-width: auto;
     background-image: url("gradientBackground.png");
+    background-size: cover;
     background-color: #FFCBA5;
 }
 
@@ -10,6 +11,11 @@ video {
     margin: auto;
     max-width: 100%;
     height: auto%;
+}
+
+.rHeight {
+    max-height: 100%;
+    width: auto;
 }
 
 
