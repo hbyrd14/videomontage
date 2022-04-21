@@ -11,7 +11,7 @@ body {
 video {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 90vw;
     height: auto;
 }
 
