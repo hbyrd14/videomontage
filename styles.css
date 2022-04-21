@@ -2,6 +2,7 @@ body {
     max-height: auto;
     max-width: auto;
     background-image: url("gradientBackground.png");
+    background-size: cover;
     background-color: #FFCBA5;
 }
 
